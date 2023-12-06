@@ -14,9 +14,6 @@ public class User {
         return password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
 
     public String getId() {
         return id;
@@ -60,7 +57,7 @@ public class User {
     }
 
     // ID를 기준으로 DB에서 User 객체를 조회하는 메서드
-    public static User loadFromDB(int id) {
+    public static User loadFromDB(String id) {
         User user = null;
 
         String url = "jdbc:mysql://localhost/user_management";
@@ -70,7 +67,7 @@ public class User {
         try (Connection conn = DriverManager.getConnection(url, username, password)) {
             String query = "SELECT id, password, email FROM users WHERE id = ?";
             PreparedStatement statement = conn.prepareStatement(query);
-            statement.setInt(1, id);
+            statement.setString(1, id);
             ResultSet resultSet = statement.executeQuery();
 
             if (resultSet.next()) {
