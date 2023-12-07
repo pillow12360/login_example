@@ -5,10 +5,10 @@ import java.sql.*;
 public class UserManager {
     private Connection connection;
 
-    public UserManager() {
+    public UserManager(String id, String pw) {
         try {
             // 데이터베이스 연결
-            connection = DriverManager.getConnection("jdbc:mysql://localhost/user_management", "username", "password");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost/user_management", id, pw);
         } catch (SQLException e) {
             e.printStackTrace();
         }

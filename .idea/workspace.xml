@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="178a665a-981b-40cd-b20d-418c3f4cc5d6" name="변경" comment="login 및 회원 가입 기능 구현 및 MySQL연동">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    <list default="true" id="178a665a-981b-40cd-b20d-418c3f4cc5d6" name="변경" comment="login 및 회원 가입 기능 구현 및 MySQL연동&#10;password 및 누락된 맴버변수 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/usermanagement/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/usermanagement/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/usermanagement/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/usermanagement/UserManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -75,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701884776941</updated>
-      <workItem from="1701884777979" duration="1150000" />
+      <workItem from="1701884777979" duration="1696000" />
+      <workItem from="1701937197932" duration="2736000" />
     </task>
     <task id="LOCAL-00001" summary="login 및 회원 가입 기능 구현 및 MySQL연동">
       <option name="closed" value="true" />
@@ -85,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701884954853</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="login 및 회원 가입 기능 구현 및 MySQL연동&#10;password 및 누락된 맴버변수 수정">
+      <option name="closed" value="true" />
+      <created>1701886453015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701886453015</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="login 및 회원 가입 기능 구현 및 MySQL연동" />
-    <option name="LAST_COMMIT_MESSAGE" value="login 및 회원 가입 기능 구현 및 MySQL연동" />
+    <MESSAGE value="login 및 회원 가입 기능 구현 및 MySQL연동&#10;password 및 누락된 맴버변수 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="login 및 회원 가입 기능 구현 및 MySQL연동&#10;password 및 누락된 맴버변수 수정" />
   </component>
 </project>
